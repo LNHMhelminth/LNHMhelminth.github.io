@@ -1,7 +1,6 @@
 ---
 title: "Data"
 draft: false
-layout: "data"
 summary: "About the data"
 ---
 
