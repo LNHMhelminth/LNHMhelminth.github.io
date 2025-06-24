@@ -75,6 +75,10 @@ params:
     - name: github
       url: "https://github.com/LNHMhelminth"
 
+  caches:
+    images:
+      dir: :cacheDir/images
+      
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
