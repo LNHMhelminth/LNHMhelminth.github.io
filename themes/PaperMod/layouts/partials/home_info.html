@@ -1,0 +1,20 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <img src='richnessMap.png' alt='Richness Map' width='90%' height='auto'>
+    <br/>
+    <footer class="entry-footer">
+        <h2> For more information on the project, see the GitHub organization </h2>
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        <br/>
+        <br/>
+        <br/>
+        <h3> This material is based upon work supported by the National Science Foundation (NSF-DBI-2329961).</h3>
+    </footer>
+</article>
+{{- end -}}
