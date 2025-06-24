@@ -1,7 +1,6 @@
 baseURL: /
 languageCode: en-us
 title: London Natural History Museum's host-helminth database
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
