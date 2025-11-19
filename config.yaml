@@ -108,10 +108,14 @@ menu:
       name: publications
       url: /publications/
       weight: 30
+    - identifier: codeFest
+      name: codeFests
+      url: /codeFest/
+      weight: 40
     - identifier: contact
       name: contact
       url: /contact/
-      weight: 40
+      weight: 50
 pygmentsUseClasses: true
 markup:
   highlight:
