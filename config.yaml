@@ -23,7 +23,7 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: true
   ShowReadingTime: false
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
@@ -96,6 +96,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 5
     - identifier: about
       name: about
       url: /about/
@@ -112,10 +116,14 @@ menu:
       name: codeFests
       url: /codeFest/
       weight: 40
+    - identifier: joinWormTown
+      name: joinWormTown
+      url: /joinwormtown/
+      weight: 50
     - identifier: contact
       name: contact
       url: /contact/
-      weight: 50
+      weight: 60
 pygmentsUseClasses: true
 markup:
   highlight:
