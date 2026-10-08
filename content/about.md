@@ -5,10 +5,7 @@ draft: false
 summary: "About the data"
 ---
 
-
 Natural history museums commonly store and host research specimens and digital data collections that are incredibly important to advancing our understanding of biodiversity. While  many data resources focus on preserving specimen information, some resources record species interactions (e.g., a parasite species infects a specific host species). One of the largest host-parasite databases in existence focuses solely on helminth parasites (parasitic worms). While a great resource, it lacks true location data, stopped receiving new interactions in 2003, and some taxonomic data on host and parasite species is incorrect. 
-
-**The researchers will work to clean, curate, augment, and georeference these data for the benefit of researchers wishing to understand parasite specificity, public health researchers thinking about potential spillover of helminths into humans or livestock, and biogeographers wishing to understand the distribution of biodiversity.**
 
 <!-- {{ <img src="sizeCompare.png" width="500" height="600">  }}-->
 
